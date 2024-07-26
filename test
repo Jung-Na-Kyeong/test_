@@ -1,0 +1,7 @@
+<button onclick="hello()">클릭</button>
+
+<p id="num"></p>
+function hello()
+{
+    document.getElementByid("num").innerHTML = "HELLO";
+}
